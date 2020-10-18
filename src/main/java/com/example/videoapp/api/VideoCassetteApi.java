@@ -1,5 +1,7 @@
 package com.example.videoapp.api;
 
+import com.example.videoapp.dao.entity.VideoCassette;
+import com.example.videoapp.manager.VideoCassetteManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
